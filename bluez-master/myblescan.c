@@ -2,9 +2,9 @@
 #include <stdlib.h>
 #include <unistd.h>
 #include <sys/socket.h>
-#include <bluez-master/bluetooth.h>
-#include <bluez-master/hci.h>
-#include <bluez-master/hci_lib.h>
+#include <lib/bluetooth.h>
+#include <lib/hci.h>
+#include <lib/hci_lib.h>
 
 int main(int argc, char **argv)
 {
